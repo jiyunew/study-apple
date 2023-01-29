@@ -1,0 +1,93 @@
+/* index.html */
+
+.profile {
+  width: 300px;
+  display: block;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.title-font {
+  font-size: 36px; text-align: center;
+  font-family: 'Happiness-Sans-Title';
+}
+
+.general-font {
+  font-size: 26px; text-align: center;
+  font-family: 'Happiness-Sans-Title';
+}
+
+.footer-font {
+  font-size: 16px; text-align: left;
+  font-family: 'Happiness-Sans-Title';
+}
+
+.box {
+  width:500px;
+  background-color: #FFFFE8;
+  margin: 10px;
+  padding: 40px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #EB455F;
+}
+
+/* layout.html */
+
+.container {
+  width: 800px;
+  height: 200px;
+  background-color: #eeee4f;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blog-left {
+  width: 75%;
+  height: 200px;
+  background-color: #CDE990;
+  float: left;
+}
+
+.blog-profile {
+  display: block;
+  float: left;
+}
+.user-text{
+  float: left;
+}
+
+.bottom {
+  width: 100%;
+  height: 136px;
+  background-color: #AACB73;
+  float: left;
+}
+
+.text {
+margin: 8px;
+}
+
+.blog-img {
+  width: 25%;
+  height: 200px;
+  background-color: #EB455F;
+  float: left;
+}
+
+
+
+
+/* 
+#FFD4D4
+#FFFFE8
+#CDE990
+#AACB73
+
+#EB455F
+#FCFFE7
+#BAD7E9
+#2B3467
+
+*/
