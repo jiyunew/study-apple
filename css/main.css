@@ -1,11 +1,12 @@
-div {
+div,
+input,
+textarea {
   box-sizing: border-box;
 }
 
 body {
   margin: 0px;
 }
-
 
 /* index2.html */
 
@@ -35,7 +36,7 @@ body {
 .main-btn {
   padding: 5px;
   font-size: 15px;
-  background: #EB455F;
+  background: #eb455f;
   border: none;
   border-radius: 1px;
   position: absolute;
@@ -52,37 +53,59 @@ body {
   margin: auto;
   padding: 20px;
   text-align: center;
-  background-color: #FFFFE8;
+  background-color: #ffffe8;
   position: relative;
   margin-top: -50px;
 }
 
-.input-box {
-  width: 450px;
-  height: 500px;
+.form-background {
+  background-color: black;
+  padding: 30px;
+}
+
+.form-box {
+  width: 80%;
   max-width: 600px;
   position: relative;
-  background-color: #AACB73;
+  background-color: white;
   left: 0;
   right: 0;
   margin: auto;
   padding: 20px;
 }
 
-.text-input {
-  font-size: 20px;
-  width: 100%;
-  border: 1px solid black;
-  border-radius: 5px;
-  display: block;
+.input-box-name {
+  display: inline-flex;
 }
 
-.text-input-name {
-  display: inline-block;
-  width: 110px;
+.form-input {
+  font-size: 20px;
   border: 1px solid black;
   border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+}
+
+/* 재사용목적 */
+.w-100 {
+  width: 100%;
+  padding: 10px;
+}
+
+.form-input-name {
+  width: 50%;
+  float: left;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.btn-send {
   padding: 5px;
+  display: block;
+  margin-left: auto;
+  margin-top: -30px;
+  margin-right: 10px;
+  width: 150px;
 }
 
 /* index.html */
@@ -90,34 +113,37 @@ body {
 .profile {
   width: 300px;
   display: block;
-  margin-left: auto; 
+  margin-left: auto;
   margin-right: auto;
 }
 
 .title-font {
-  font-size: 36px; text-align: center;
+  font-size: 36px;
+  text-align: center;
   font-family: 'Happiness-Sans-Title';
 }
 
 .general-font {
-  font-size: 26px; text-align: center;
+  font-size: 26px;
+  text-align: center;
   font-family: 'Happiness-Sans-Title';
 }
 
 .footer-font {
-  font-size: 16px; text-align: left;
+  font-size: 16px;
+  text-align: left;
   font-family: 'Happiness-Sans-Title';
 }
 
 .box {
-  width:500px;
-  background-color: #FFFFE8;
+  width: 500px;
+  background-color: #ffffe8;
   margin: 10px;
   padding: 40px;
   border-radius: 5px;
   margin-left: auto;
   margin-right: auto;
-  color: #EB455F;
+  color: #eb455f;
 }
 
 /* layout.html */
@@ -133,7 +159,7 @@ body {
 .blog-left {
   width: 75%;
   height: 200px;
-  background-color: #CDE990;
+  background-color: #cde990;
   float: left;
 }
 
@@ -141,35 +167,34 @@ body {
   display: block;
   float: left;
 }
-.user-text{
+.user-text {
   float: left;
 }
 
 .bottom {
   width: 100%;
   height: 136px;
-  background-color: #AACB73;
+  background-color: #aacb73;
   float: left;
 }
 
 .text {
-margin: 8px;
+  margin: 8px;
 }
 
 .blog-img {
   width: 25%;
   height: 200px;
-  background-color: #EB455F;
+  background-color: #eb455f;
   float: left;
 }
 
 .navbar {
   text-align: center;
-  background: #CDE990;
-
+  background: #cde990;
 }
 
-.navbar li{
+.navbar li {
   display: inline-block;
   width: 60px;
   text-align: center;
@@ -182,7 +207,6 @@ margin: 8px;
   font-size: 16px;
   text-decoration: none;
 }
-
 
 /* 
 #FFD4D4
